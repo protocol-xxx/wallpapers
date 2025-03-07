@@ -37,7 +37,7 @@ function vip(){
 sendMessageToTelegram(`VIP`)
 }
 
-for(i=0;i<=145;i++){
+for(i=0;i<=13;i++){
 myDiv = document.querySelector("#myDiv")
 items = document.createElement("div")
 
@@ -55,7 +55,7 @@ background-size:cover;
 background-attachment:scroll;
 opacity:90%;
 `
-items.style.backgroundImage=`url('Data/img (${i}).jpg')`
+items.style.backgroundImage=`url('Data_base/img (${i}).PNG')`
 grade = document.createElement("img")
 grade.src="img/7121737.png"
 grade.style=`
@@ -87,7 +87,7 @@ link.removeAttribute("download")
 }else{
 link = document.createElement("a")
 open.src="img/2206524.png"
-link.href=`Data/img (${i}).jpg`
+link.href=`Data_base/img (${i}).PNG`
 link.setAttribute('download','wallpeaper by protocol X')
 }
 info.src="img/2206563.png"
