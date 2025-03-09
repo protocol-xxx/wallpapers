@@ -73,7 +73,7 @@ open = document.createElement("img")
 info = document.createElement("img")
 report = document.createElement("img")
 download = document.createElement("button")
-share.href=`https://wa.me/?text=Welcome to our website! 🌟 We're thrilled to have you here in our vibrant world of stunning and free wallpapers. Explore an incredible collection designed to transform your screens into works of art—all at no cost!
+share.href=`https://wa.me/?text=Welcome to our website! 🌟+ https://protocol-xxx.github.io/wallpapers/ + We're thrilled to have you here in our vibrant world of stunning and free wallpapers. Explore an incredible collection designed to transform your screens into works of art—all at no cost!
 Whether you're drawn to breathtaking landscapes, captivating artistic designs, or sleek modern styles, our selection has something for everyone. Let your screens reflect your personality with our unique and diverse backgrounds.
 Enjoy browsing, downloading, and making your screens more beautiful than ever. Thank you for visiting! 😊✨`
 info.src="img/2206563.png"
