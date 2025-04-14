@@ -62,6 +62,7 @@ items.style.backgroundImage=`url('Data_base/img (${i}).PNG')`
 
 grade = document.createElement("img")
 grade.src="img/7121737.png"
+grade.alt=""
 grade.style=`
 alt:;
 width:8%;
@@ -83,8 +84,10 @@ share.href=`https://wa.me/?text=Welcome to our website! 🌟 We're thrilled to h
 Whether you're drawn to breathtaking landscapes, captivating artistic designs, or sleek modern styles, our selection has something for everyone. Let your screens reflect your personality with our unique and diverse backgrounds.
 Enjoy browsing, downloading, and making your screens more beautiful than ever. Thank you for visiting! 😊✨`
 info.src="img/2206563.png"
+    info.alt=""
 info.setAttribute("id",`info${i}`)
 report.src="img/2206559.png"
+    report.alt=""
 report.setAttribute("id",`report${i}`)
 download.append(document.createTextNode("Download"))
 download.style=`
@@ -127,6 +130,7 @@ reference.setAttribute("id",`reference${i}`)
 
  if(i==1 ||i==5 || i==11 || i==17 || i==21 || i==26 ||i%3==1){
  open.src="img/10038808.png"
+     open.alt=""
  open.style.width=="30px"
  link = document.createElement("a")
  link.href=`Data_base/img (${i}).PNG`
@@ -136,6 +140,7 @@ reference.setAttribute("id",`reference${i}`)
  }else{
  link = document.createElement("a")
  open.src="img/2206524.png"
+     open.alt=""
  link.href=`Data_base/img (${i}).PNG`
  link.setAttribute('download','wallpeaper by protocol X')
  }
