@@ -63,6 +63,7 @@ items.style.backgroundImage=`url('Data_base/img (${i}).PNG')`
 grade = document.createElement("img")
 grade.src="img/7121737.png"
 grade.style=`
+alt:;
 width:8%;
 height:5%;
 background-color:;
@@ -100,7 +101,7 @@ opacity:80%;
 `
 download.setAttribute('onclick',`telegrame(${i})`)
 info.style=report.style=open.style=`
-width:10%;
+width:10%;alt:;
 height:7%;
 background-color:;
 border:none;
